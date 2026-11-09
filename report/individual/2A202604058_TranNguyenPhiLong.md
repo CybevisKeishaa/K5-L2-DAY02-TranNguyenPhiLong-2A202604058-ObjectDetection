@@ -4,11 +4,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
+- Họ tên: Trần Nguyên Phi Long
+- MSSV: 2A202604058
 - Email:
 - Lớp:
-- Link repo bài làm:
+- Link repo bài làm: https://github.com/CybevisKeishaa/K5-L2-DAY02-TranNguyenPhiLong-2A202604058-ObjectDetection
 - Link Colab đã chạy:
 
 ## 2. Schema và mini guideline
@@ -73,3 +73,5 @@ Trả lời bốn câu hỏi cuối notebook:
 ## 8. Công cụ AI và tài liệu tham khảo
 
 Ghi công cụ đã dùng, dùng ở bước nào và phần đã tự kiểm tra; không dùng thì ghi rõ. Liệt kê nguồn ngoài repo được sử dụng. Không ghi mật khẩu/token hoặc đính kèm gold train.
+
+- Claude Code (Opus 5.5), bước chuẩn bị repo: đọc yêu cầu, tạo remote bài nộp, điền `REPO_URL` trong notebook, đổi tên file báo cáo và điền họ tên/MSSV/link repo ở mục 1.
