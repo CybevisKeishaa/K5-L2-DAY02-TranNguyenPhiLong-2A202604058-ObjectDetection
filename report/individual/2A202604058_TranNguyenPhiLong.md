@@ -94,7 +94,7 @@ Hệ quả cho bước train: notebook dùng `eval` làm validation, mà nhãn e
 ## 5. Kết quả YOLO
 
 - **Runtime:** Colab CPU (Python 3, Google Compute Engine, không có GPU), mỗi epoch khoảng 37 giây, 50 epoch hết 2015 giây (khoảng 34 phút).
-- **Phiên bản Ultralytics / Torch:**
+- **Phiên bản Ultralytics / Torch:** Ultralytics 8.4.208, Torch 2.14.1+cpu
 - **Tham số:** giữ nguyên notebook: `yolo26n.pt`, `epochs=50`, `imgsz=640`, `batch=-1`, `seed=20260909`. Split giữ nguyên: 50 ảnh train, 10 ảnh eval chỉ dùng làm validation.
 - **Best checkpoint:** `/content/Day2-Lab/outputs/yolo26_runs/vehicle_annotation/weights/best.pt`. File `.pt` không được nộp. Theo [`results.csv`](assets/yolo26_runs/vehicle_annotation/results.csv), best là **epoch 1** (mAP50-95 0.198). Các epoch sau precision tăng lên khoảng 0.69 nhưng recall giảm còn khoảng 0.19, nên không epoch nào vượt epoch 1. Phần giải thích ở câu 1 và 3.
 
